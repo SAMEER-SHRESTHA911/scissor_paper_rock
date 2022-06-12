@@ -30,6 +30,8 @@ function win()
     compScore_div.textContent = compScore;
     console.log("Win");
 }
+
+
 function loss()
 {
     compScore = Number(compScore) + 1;
