@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: rgb(27, 41, 80);
+    color: azure;
+}
+h1{
+    font-size: 30px;
+    background-color: rgb(215, 122, 41);
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+}
+.mid2 p, .mid1 p
+{
+    font-size: 20px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    margin: 10px 10px;
+    padding: 10px;
+}
+.heading
+{
+    background-color: rgb(215, 122, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 15vh;
+}
+.mid
+{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mid1,.mid2
+{
+    display: flex;
+
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.inner-main
+{
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.scissor, .paper, .rock
+{
+    display : flex;
+    padding: 30px;
+}
+.end
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: black;
+    height : 40px;
+    
+}
+img
+{
+    cursor : pointer;
+    height: 140px;
+    width: 140px; 
+}
+p
+{
+    text-align: center;
+    font-size: 15px;
+}
